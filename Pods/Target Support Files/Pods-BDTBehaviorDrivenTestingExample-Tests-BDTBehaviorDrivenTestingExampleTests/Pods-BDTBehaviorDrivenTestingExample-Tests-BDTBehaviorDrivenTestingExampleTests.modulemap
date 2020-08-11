@@ -1,0 +1,6 @@
+framework module Pods_BDTBehaviorDrivenTestingExample_Tests_BDTBehaviorDrivenTestingExampleTests {
+  umbrella header "Pods-BDTBehaviorDrivenTestingExample-Tests-BDTBehaviorDrivenTestingExampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

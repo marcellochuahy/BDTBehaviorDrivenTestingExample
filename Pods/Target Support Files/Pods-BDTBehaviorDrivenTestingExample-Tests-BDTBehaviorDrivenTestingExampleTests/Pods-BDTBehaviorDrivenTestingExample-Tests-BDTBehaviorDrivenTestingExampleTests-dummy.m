@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_BDTBehaviorDrivenTestingExample_Tests_BDTBehaviorDrivenTestingExampleTests : NSObject
+@end
+@implementation PodsDummy_Pods_BDTBehaviorDrivenTestingExample_Tests_BDTBehaviorDrivenTestingExampleTests
+@end
