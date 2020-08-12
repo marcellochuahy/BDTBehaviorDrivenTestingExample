@@ -7,19 +7,19 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
-	
-	
+
+	let viewControllerView = ViewControllerView()
+
 	override func loadView() {
-		let view = UIView(frame: UIScreen.main.bounds)
-		view.backgroundColor = .red
-		self.view = view
+		view = viewControllerView
 	}
-	
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		title = "Primeira Tela do App"
 	}
 
 }
-

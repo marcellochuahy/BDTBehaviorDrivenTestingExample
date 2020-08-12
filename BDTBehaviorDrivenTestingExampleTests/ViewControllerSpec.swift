@@ -12,9 +12,9 @@ import Nimble
 
 class ViewControllerSpec: QuickSpec {
 	override func spec() {
-		
+
 		var sut: ViewController!
-		
+
 		beforeEach {
 			sut = ViewController()
 		}
@@ -22,7 +22,7 @@ class ViewControllerSpec: QuickSpec {
 		// describe -> what action or behavior you’ll be testing
 		// context  -> specific context of the action you’ll be testing
 		// it       -> specific expected result for the test
-		
+
 		// load
 		// a initial view controller
 		// should show a red background
@@ -35,29 +35,6 @@ class ViewControllerSpec: QuickSpec {
 				}
 			}
 		}
-		
+
 	}
 }
-
-
-
-/*
-
-# Podfile
-# -------
-
-use_frameworks!
-
-target "ProjectName" do
-
-    inherit! :search_paths
-
-    abstract_target 'Tests' do
-        target "ProjectNameTests"
-        pod 'Quick'
-        pod 'Nimble'
-    end
-
-end
-
-*/
